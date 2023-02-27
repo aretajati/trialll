@@ -1,0 +1,230 @@
+body {
+    margin: 0px; /*all margins (top, bottom, left, right)*/
+    font-family: 'Merriweather', serif;
+}
+
+.top-container {
+    background-color: #e0ebe8;
+    position: relative;
+    height: 630px;
+    padding-top: 100px;
+}
+
+.header {
+    text-align: center;
+    color: #45b29a;
+    font-family: 'Licorice', cursive;
+    font-size: 5.625rem;  /* targetted size is 90px, convert into rem = 90px / 16px = 5.625 */  /*16px = 100% = 1em*/
+    line-height: 100%;
+
+}
+
+.cloud1 {
+    position: absolute;
+    left: 1250px;
+    top: 150px;
+  
+}
+
+.par {
+    text-align: center;
+    color: #45b29a;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem; /*targetted 40px*/
+    font-weight: normal;
+}
+.cloud2 {
+    position: absolute;
+    left: 500px;
+    bottom: 380px;
+/*    max-width: 100%;  
+    height: auto; */     /*these 2 lines are to maximize the image size*/
+}
+
+
+.mountains {
+    position: absolute;
+    bottom: 0;
+    left: 550px;
+    
+}
+
+.middle-container {
+    background-color: white ;
+    height: 1400px;
+    text-align: center;
+}
+
+.profile {
+    padding-top: 20px;
+    border-color: red ;
+}
+
+.profile {
+    height: 480px;
+}
+
+.hijabi {
+    background-color: #F9F5E7;
+    border-radius: 100%;
+    padding: 20px 10px 0;
+    width: 150px;
+    margin-top: 80px;
+}
+
+.hellop {
+    padding-top: 0px ;
+    line-height: 2;
+}
+.hello {
+    color: #45b29a;
+    padding-top: 40px;
+    line-height: 2;
+}
+
+.skills {
+    height: 680px;
+}
+
+
+.skill-row1 {
+    width: 50%;
+    margin: 50px auto 50px auto;
+
+}
+
+.skill-row2 {
+    width: 50%;
+    margin: 70px auto 50px auto;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.h3skill1 {
+    color: #45b29a;
+    font-size: 1.5rem;
+    display: inline-block;
+    margin-right: 250px;
+}
+
+.h3skill2 {
+    color: #45b29a;
+    font-size: 1.5rem;
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 120px;
+}
+
+.pskill1 {
+    line-height: 2;
+    text-align: left;
+    display: inline-block;
+    width: 55%;
+
+}
+
+.pskill2 {
+    line-height: 2;
+    text-align: left;
+    display: inline-block;
+    width: 55%;
+    margin-left: 120px;
+    margin-bottom: 50px;
+}
+
+.imgskill1 {
+    width: 180px;
+    padding: 20px 10px 0;
+    float: left;
+    margin-left: 100px;
+
+}
+
+.imgskill2 {
+    width: 180px;
+    float: right;
+    margin-right: 90px;
+
+}
+
+.titleskill {
+    color: #1e836c;
+    font-size: 2.5rem;
+    margin: 80px auto 80px;
+}
+
+.contact-me {
+    height: 500px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.help {
+    color: #1e836c;
+    padding: 10px 10px 0;
+    font-size: 2.5rem;
+    line-height: 2;
+    margin-top: 100px;
+}
+
+.freelance {
+    color: #45b29a;
+    font-size: 1.5rem;
+}
+
+.btn {
+    color: #1b7f69 ;
+    background-color: #45b29a;
+    border-radius: 8px;
+    padding: 0.75rem 3rem 0.75rem 3rem;
+    position: absolute;
+    top: 290px;
+    left: 850px;
+} 
+
+.pbottom {
+    line-height: 2;
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}
+hr { 
+
+    border-style: dotted none none;
+      border-width: 5px;
+      border-color: #bbbbbb;
+      width: 5%;
+}
+
+/*
+.mail {
+    position: absolute;
+    right: 600px;
+} */
+
+
+.bottom-container {
+    background-color: #e0ebe8 ;
+    height: 180px;
+    text-align: center;
+    position: relative;
+    top: 450px;
+}
+
+.footer-link {
+    color: #1e836c;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 60px;
+}
+.footer-link:hover {
+    color: black;
+}
+
+.copywriting {
+    color: #45b29a;
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-top: 70px;
+} 
